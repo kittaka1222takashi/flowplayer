@@ -1,0 +1,13 @@
+dev:
+  build: ./
+  ports:
+    - "8080:80"
+  volumes:
+    - ./:/var/www/html
+
+# phpmyadmin:
+#   image: phpmyadmin/phpmyadmin
+#   ports:
+#     - "8080:80"
+#   links:
+#     - "mariadb:db"
