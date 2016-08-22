@@ -2,3 +2,31 @@
 ・利用規約の確認⇛商用での利用はOKか？
 ・UIのデザイン変更方法
 ・Androidは2.3系と4系とかでHLS配信の挙動が大きく変わるため、そのあたりについての記述がないか調べる。
+
+
+・HTML5版でもFlashへのFall backはできるっぽい？
+    ⇛Older browsers like IE8 are covered with a Flash fallback.
+・Flash版でしか暗号化できない？
+    ⇛The main reason to use this version is content protection. You can send the video data in encrypted form so that no one can steal it.
+    ⇛https://flowplayer.org/forum/#!/flowplayer/setup:encrypt-html5-file-url　HTML5Playerでは動画ファイルへのダイレクトなアクセスが必要。
+    ⇛
+
+・無償版でも商用の利用が可能
+・無償版と有償版との違いはFlowplayerのロゴが表示れるか否かのみ
+・よって有償版で商用利用は可能
+・有償版を購入すると、ドメインとライセンスキーが紐付いた形で配布される。
+・一度紐付けられたドメインを変更することはできず、変更する際は新たにライセンスキーを配布してもらうことになる。料金も発生し、€39/domainかかる
+・2年に一回メジャーアップデートがあり、アップデートにも料金がかかる。
+    ・1 domain €39.00
+    ・5 domains €125.00
+    ・100 domains €219.00
+    ・Unlimited domains €555.00
+・15日以内であれば払い戻しができる。
+・埋め込みプレイヤーは他のドメインのページに無制限に埋め込むことができる。
+・商用版のダウンロードには予め"localhost"と"127.0.0.1"が含まれているので、ブランドロゴの表示をテストすることができる。
+
+
+利用規約
+Flowplayerは継続的にサービスの革新と開発を続けています。サービスの機能性が変化する可能性があります。また、サービスは予告なく終了する可能性があります。予めご了承ください。
+
+ビデオコンテンツ・責務・著作権について
